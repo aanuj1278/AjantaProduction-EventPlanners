@@ -116,9 +116,15 @@ body {
 }
 
 .indent-1 {
-  /* margin-top: 50px; */
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+}
+.read-more-section-mainDiv{
+  width: 50%;
 }
 
 .button {
@@ -173,6 +179,9 @@ body {
 }
 
 .hrLine {
+  width: 50%;
+}
+.indent1-img-outer{
   width: 50%;
 }
 
@@ -573,26 +582,32 @@ body {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .bg3-heading2{
     font-size: 70px;
   }
   .fixed-bg1-heading2{
     font-size: 70px;
   }
+  .fixed-bg1-heading3{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: white;
+  }
   .header-navbar-mainDiv-navBar{
     display: none;
   }
   .read-more-section-mainDiv{
+    /* width: 50%; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .indent1-img{
+  /* .indent1-img{
     max-width: 100%; 
     margin-top: 180px;
-  }
+  } */
   .services{
     display: flex;
     justify-content: center;
@@ -600,13 +615,14 @@ body {
     flex-direction: column;
   }
   .indent1-img-outer{
-    display: flex;
-    justify-self: center;
-    align-items: center;
+    display: none;
+    /* justify-self: center;
+    align-items: center; */
+
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .example {background: green;}
 }
