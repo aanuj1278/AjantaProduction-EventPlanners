@@ -14,6 +14,7 @@ body {
 .fixed-bg {
   background-image: url("images/weeding-bg.jpg");
   min-height: 700px;
+  width: auto;
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -115,7 +116,7 @@ body {
 }
 
 .indent-1 {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 50px;
   display: flex;
 }
@@ -270,7 +271,7 @@ body {
 .bg3-heading2 {
   font-family: 'Times New Roman';
   color: white;
-  font-size: 140px;
+  font-size: 150px;
 }
 
 .bg3-content {
@@ -311,7 +312,7 @@ body {
 }
 
 .gallary-section-mainDiv-images {
-  width: 360px;
+  /* width: 360px; */
   height: 250px;
   margin: 10px;
 }
@@ -334,7 +335,7 @@ body {
 
 .footer-leftDiv {
   background-color: black;
-  height: 600px;
+  /* height: 600px; */
   width: 50%;
 }
 
@@ -343,7 +344,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 200px 0px;
+  padding: 185px 0px;
 }
 
 .footer-leftDiv-mainDiv-fancyBorder {
@@ -405,12 +406,8 @@ body {
 }
 
 .how-we-work-section {
-  height: 800px;
+  height: 700px;
   background-color: white;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 }
 
 .how-we-work-content {
@@ -418,7 +415,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 35px 0px;
+}
+.how-we-work-mainDiv{
+  padding: 80px 0px;
 }
 
 .how-we-work-content-heading1 {
@@ -437,6 +436,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  top:-50px;
 }
 .how-we-work-chart-mainDiv {
   display: flex;
@@ -444,60 +444,74 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 600px;
-  width: 900px;
+  height: 500px;
+  width: 100%;
   position: relative;
   /* margin: 300px */
 }
 
 .one {
-  height: 300px;
+  height: 50px;
   width: 300px;
   border-width: 2px;
   border-color: white;
+  margin-top: 70px;
 }
 
 .two {
-  height: 120px;
+  height: 50px;
   width: 300px;
   border-left: 1px dashed black;
   border-right: 1px dashed black;
   border-top: 1px dashed black;
   border-width: 2px;
+  margin-top: 70px;
 }
 
 .three {
-  height: 300px;
+  height: 50px;
   width: 300px;
   border-width: 2px;
   border-color: white;
+  margin-top: 70px;
 }
 
 .four {
-  height: 120px;
+  /* height: 50px;
   width: 300px;
   border-bottom: 1px dashed black;
   border-left: 1px dashed black;
   border-right: 1px dashed black;
   border-width: 2px;
+  margin-bottom: 70px; */
+
+  height: 50px;
+  width: 300px;
+  border-top: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  border-width: 2px;
+  margin-top: 70px;
 }
 
 .five {
-  height: 300px;
+  height: 50px;
   width: 300px;
   border-left: 1px dashed black;
   border-right: 1px dashed black;
   border-width: 2px;
   border-color:white ;
+  margin-bottom: 70px;
 }
 
 .six {
-  height: 120px;
+  height: 50px;
   width: 300px;
   border-bottom: 1px dashed black;
   border-right: 1px dashed black;
   border-left: 1px dashed black;
   border-width: 2px;
+  margin-bottom: 60px;
 }
 
 .how-we-work-chart-divs {
@@ -554,4 +568,45 @@ body {
   align-items: center;
   padding: 0px 20px;
   color: #666666;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bg3-heading2{
+    font-size: 70px;
+  }
+  .fixed-bg1-heading2{
+    font-size: 70px;
+  }
+  .header-navbar-mainDiv-navBar{
+    display: none;
+  }
+  .read-more-section-mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .indent1-img{
+    max-width: 100%; 
+    margin-top: 180px;
+  }
+  .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .indent1-img-outer{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
 }
