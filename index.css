@@ -597,7 +597,10 @@ body {
     text-align: center;
   }
   .bg3-heading{
-    font-size: 11px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: white;
+    padding: 30px 0px 0px 0px;
   }
   .bg3-content{
     font-size: 30px;
@@ -648,7 +651,10 @@ body {
     animation: zoom-in-zoom-out 0s ease infinite;
   }
   .bg3-heading{
-    font-size: 11px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: white;
+    padding: 30px 0px 0px 0px;
   }
   .bg3-content{
     font-size: 30px;
@@ -714,7 +720,10 @@ body {
     text-align: center;
   }
   .bg3-heading{
-    font-size: 11px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: white;
+    padding: 30px 0px 0px 0px;
   }
   .bg3-content{
     font-size: 30px;
@@ -843,7 +852,10 @@ body {
 }
 
 /* menu btn */
-
+/* 
+.menu{
+  background-color: black;
+} */
 .header .menu-btn {
 	display: none;
 }
@@ -882,6 +894,7 @@ body {
 		clear: none;
 		float: right;
 		max-height: none;
+    /* background-color: black; */
 	}
 	.header .menu-icon {
 		display: none;
