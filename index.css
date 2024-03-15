@@ -1,0 +1,557 @@
+body {
+  overflow-x: hidden;
+}
+
+.company-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.fixed-bg-outer {
+  overflow: hidden;
+}
+
+.fixed-bg {
+  background-image: url("images/weeding-bg.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: zoom-in-zoom-out 10s ease infinite;
+
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.header {
+  position: fixed;
+  z-index: 1000000;
+  width: 100%;
+  padding: 10px;
+}
+
+.header-outer {
+  position: absolute;
+}
+
+.header-navbar-mainDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-navbar-mainDiv-logo {
+  width: 50%;
+}
+
+.header-navbar-mainDiv-navBar {
+  width: 50%;
+}
+
+.header-navbar-mainDiv-navBar-content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: row;
+}
+
+.navbar-content {
+  padding: 15px 25px;
+  color: white;
+  font-size: larger;
+}
+
+.navbar-content:hover {
+  color: #AD9271;
+}
+
+.fixed-bg2 {
+  background-image: url("images/hero.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fixed-bg1-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 125px 0px;
+}
+
+.fixed-bg1-heading1 {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: white;
+  padding: 30px 0px 0px 0px;
+}
+
+.fixed-bg1-heading2 {
+  font-family: 'Times New Roman';
+  font-size: 150px;
+  color: white;
+}
+
+.fixed-bg1-heading3 {
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: white;
+}
+
+.indent-1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.button3:hover {
+  background-color: black;
+  color: white;
+}
+
+.button4 {
+  color: black;
+  border: 2px solid black;
+}
+
+.button4:hover {
+  background-color: black;
+  color: white;
+}
+
+.button5 {
+  color: white;
+  border: 2px solid white;
+}
+
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hrLine {
+  width: 50%;
+}
+
+.catering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.catering-detail-heading {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+.decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.decoration-detail-heading {
+  font-family: 'Times New Roman';
+  font-size: 20px
+}
+
+.sound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.sound-detail-heading {
+  font-family: 'Times New Roman';
+  font-size: 20px
+}
+
+.detail {
+  padding-left: 5px;
+}
+
+.fixed-bg2-content {
+  color: white;
+  padding: 150px;
+}
+
+.bg2-content-1 {
+  font-family: 'Times New Roman';
+  font-size: 20px
+}
+
+.bg2-content-2 {
+  font-family: 'Times New Roman';
+  font-size: 50px
+}
+
+.bg2-content-4 {
+  font-family: 'Times New Roman';
+  font-size: 30px;
+  color: #AD9271;
+}
+
+.social-media {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.fixed-bg3 {
+  background-image: url("images/flower.jpg");
+  ;
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.bg3-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px;
+}
+
+.bg3-heading {
+  font-family: 'Times New Roman';
+  color: #fff;
+  font-size: x-large;
+}
+
+.bg3-heading2 {
+  font-family: 'Times New Roman';
+  color: white;
+  font-size: 140px;
+}
+
+.bg3-content {
+  font-family: 'Times New Roman';
+  color: #AD9271;
+  font-size: 30px;
+}
+
+.gallary-section {
+  height: 900px;
+  background-color: white;
+}
+
+.gallary-section-content {
+  font-family: 'Times New Roman';
+  background-color: #f6f6f6;
+  margin: 20px;
+}
+
+.gallary-section-headings {
+  padding: 100px 0px 50px 195px;
+}
+
+.gallary-section-heading1 {
+  font-size: 20px;
+}
+
+.gallary-section-heading2 {
+  font-size: 40px;
+}
+
+.gallary-section-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallary-section-mainDiv-images {
+  width: 360px;
+  height: 250px;
+  margin: 10px;
+}
+
+.gallary-section-btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.footer-div {
+  height: 600px;
+  background-color: white;
+}
+
+.footer-mainDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-leftDiv {
+  background-color: black;
+  height: 600px;
+  width: 50%;
+}
+
+.footer-leftDiv-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px 0px;
+}
+
+.footer-leftDiv-mainDiv-fancyBorder {
+  color: white;
+  padding: 15px;
+}
+
+.footer-leftDiv-mainDiv-heading1 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Times New Roman';
+}
+
+.footer-leftDiv-mainDiv-heading2 {
+  font-size: 40px;
+  color: #AD9271;
+  font-family: 'Times New Roman';
+}
+
+.footer-leftDiv-mainDiv-heading3 {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman';
+}
+
+.footer-rightDiv {
+  background-color: #ffffff;
+  height: 600px;
+  width: 50%;
+}
+
+.footer-rightDiv-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.footer-rightDiv-content-headeing1 {
+  font-size: 40px;
+  font-family: 'Times New Roman';
+}
+
+.footer-rightDiv-content-headeing2 {
+  font-size: 15px;
+  font-family: 'Times New Roman';
+}
+
+.footer-rightDiv-form {
+  margin-top: 50px;
+  padding: 0px 50px;
+}
+
+.footer-rightDiv-form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.how-we-work-section {
+  height: 800px;
+  background-color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.how-we-work-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px 0px;
+}
+
+.how-we-work-content-heading1 {
+  font-size: 35px;
+  font-family: 'Times New Roman';
+}
+
+.how-we-work-content-heading2 {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: #666666;
+}
+
+.how-we-work-chart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.how-we-work-chart-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 900px;
+  position: relative;
+  /* margin: 300px */
+}
+
+.one {
+  height: 300px;
+  width: 300px;
+  border-width: 2px;
+  border-color: white;
+}
+
+.two {
+  height: 120px;
+  width: 300px;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  border-top: 1px dashed black;
+  border-width: 2px;
+}
+
+.three {
+  height: 300px;
+  width: 300px;
+  border-width: 2px;
+  border-color: white;
+}
+
+.four {
+  height: 120px;
+  width: 300px;
+  border-bottom: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  border-width: 2px;
+}
+
+.five {
+  height: 300px;
+  width: 300px;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  border-width: 2px;
+  border-color:white ;
+}
+
+.six {
+  height: 120px;
+  width: 300px;
+  border-bottom: 1px dashed black;
+  border-right: 1px dashed black;
+  border-left: 1px dashed black;
+  border-width: 2px;
+}
+
+.how-we-work-chart-divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  /* width: 100%; */
+  position: absolute;
+  justify-content: center;
+}
+
+.one-div {
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.two-div {
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.three-div {
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.four-div {
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.one-div-user-mainDiv{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.one-div-user-heading{
+  font-size: xx-large;
+  color: white;
+  font-family: 'Times New Roman';
+}
+.one-div-user-content{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px 20px;
+  color: #666666;
+}
