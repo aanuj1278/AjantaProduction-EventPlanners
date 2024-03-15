@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  animation: zoom-in-zoom-out 10s ease infinite;
+  animation: zoom-in-zoom-out 0s ease infinite;
 
 }
 
@@ -592,6 +592,9 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
+  .fixed-bg2-content{
+    padding: 120px 50px;
+  }
   .bg3-heading2{
     font-size: 70px;
   }
@@ -600,7 +603,7 @@ body {
   }
   .fixed-bg1-heading3{
     font-family: 'Times New Roman';
-    font-size: 30px;
+    font-size: 25px;
     color: white;
   }
   /* .header-navbar-mainDiv-navBar{
@@ -668,9 +671,26 @@ body {
   .footer-rightDiv{
     width: 100%;
   }
+  .footer-rightDiv-content-headeing1{
+    text-align: center;
+  }
+  .footer-rightDiv-content-headeing2{
+    text-align: center;
+  }
+  .indent-1{
+    padding: 10px;
+  }
+  .fixed-bg{
+    animation: zoom-in-zoom-out 0s ease infinite;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 500px) {
-  .example {background: green;}
+@media only screen and (max-width: 350px) {
+  .indent-1{
+    padding: 0px;
+  }
+  .fixed-bg{
+    animation: zoom-in-zoom-out 0s ease infinite;
+  }
 }
