@@ -542,10 +542,16 @@ body {
   padding: 0px 20px;
   color: #666666;
 }
-
+.read-more-section-content{
+  font-size: 15px; 
+  color: #666666;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
+  .read-more-section-content{
+    text-align: center;
+  }
   .one-div {
     height: 210px;
   }
@@ -659,6 +665,9 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 350px) {
+  .read-more-section-content{
+    text-align: center;
+  }
   .one-div {
     height: 210px;
   }
@@ -702,6 +711,9 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 650px) {
+  .read-more-section-content{
+    text-align: center;
+  }
   .one-div {
     height: 210px;
   }
