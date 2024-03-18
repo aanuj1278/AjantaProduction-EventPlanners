@@ -861,7 +861,7 @@ body {
 }
 
 .header .menu-btn:checked ~ .menu {
-	max-height: 350px;
+	max-height: 370px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -884,8 +884,16 @@ body {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+  .header .menu-btn:checked ~ .menu {
+    max-height: 370px;
+  }
+  
+  .header{
+    background-color: black; 
+  }
 	.header li {
 		float: left;
+    /* background-color: black; */
 	}
 	.header li a {
 		padding: 22px 14px;
@@ -898,5 +906,6 @@ body {
 	}
 	.header .menu-icon {
 		display: none;
+    /* background-color: black; */
 	}
 }
