@@ -48,16 +48,28 @@ function redirectPage(event){
   let pageName= event.currentTarget.dataset.id;
   let base_url = window.location.origin;
   if(pageName == 'home'){
-    window.location.href=base_url+"/index.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/index.html";
   }else if(pageName == 'aboutUs'){
-    window.location.href=base_url+"/aboutUs.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/aboutUs.html";
   }else if(pageName == 'services'){
-    window.location.href=base_url+"/services.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/services.html";
   }else if(pageName == 'gallery'){
-    window.location.href=base_url+"/gallery.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/gallery.html";
   }else if(pageName == 'venues'){
-    window.location.href=base_url+"/venues.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/venues.html";
   }else if(pageName == 'contactUs'){
-    window.location.href=base_url+"/contactUs.html";
+    window.location.href=base_url+"/AjantaProduction-EventPlanners/contactUs.html";
   }
+}
+function readMoreButton(){
+  let base_url = window.location.origin;
+  window.location.href=base_url+"/AjantaProduction-EventPlanners/aboutUs.html";
+}
+function showMoreButton(){
+  let base_url = window.location.origin;
+  window.location.href=base_url+"/AjantaProduction-EventPlanners/gallery.html";
+}
+function bookMyWeddingDateButton(){
+  let base_url = window.location.origin;
+  window.location.href=base_url+"/AjantaProduction-EventPlanners/contactUs.html";
 }
