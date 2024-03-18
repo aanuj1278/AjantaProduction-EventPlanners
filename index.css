@@ -549,6 +549,9 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
+  .contactus-bg-heading{
+    font-size: 100px;
+  }
   .read-more-section-content{
     text-align: center;
   }
@@ -665,6 +668,9 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 350px) {
+  .contactus-bg-heading{
+    font-size: 100px;
+  }
   .read-more-section-content{
     text-align: center;
   }
@@ -711,6 +717,9 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 650px) {
+  .contactus-bg-heading{
+    font-size: 100px;
+  }
   .read-more-section-content{
     text-align: center;
   }
@@ -943,6 +952,10 @@ body {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+  
+  .contactus-bg-heading{
+    font-size: 100px;
+  }
   .header .menu-btn:checked ~ .menu {
     max-height: 370px;
   }

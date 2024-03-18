@@ -44,20 +44,20 @@ function sendEmail() {
             },
           );
 }
-
-// window.addEventListener('scroll', function (evt) {
-//   console.log('OUTPUT : x axis->',screen.width);
-//     if (window.scrollY == 0) {
-//       console.log('OUTPUT : 51');
-//       let ele = document.getElementById('header');
-//         if(screen.width > 768){
-//           console.log('OUTPUT : 54')
-//           ele.style.removeProperty("background-color"); 
-//         }
-//     }
-//     if(window.scrollY >= 200){
-//       console.log('OUTPUT : 59')
-//         let ele = document.getElementById('header');
-//         ele.style.setProperty("background-color", "black");
-//     }
-//   });
+function redirectPage(event){
+  let pageName= event.currentTarget.dataset.id;
+  let base_url = window.location.origin;
+  if(pageName == 'home'){
+    window.location.href=base_url+"/index.html";
+  }else if(pageName == 'aboutUs'){
+    window.location.href=base_url+"/aboutUs.html";
+  }else if(pageName == 'services'){
+    window.location.href=base_url+"/services.html";
+  }else if(pageName == 'gallery'){
+    window.location.href=base_url+"/gallery.html";
+  }else if(pageName == 'venues'){
+    window.location.href=base_url+"/venues.html";
+  }else if(pageName == 'contactUs'){
+    window.location.href=base_url+"/contactUs.html";
+  }
+}
