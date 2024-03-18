@@ -546,6 +546,21 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
+  .one-div {
+    height: 210px;
+  }
+  
+  .two-div {
+    height: 210px;
+  }
+  
+  .three-div {
+    height: 210px;
+  }
+  
+  .four-div {
+    height: 210px;
+  }
   .fixed-bg2-content{
     padding: 120px 50px;
   }
@@ -598,12 +613,12 @@ body {
   }
   .bg3-heading{
     font-family: 'Times New Roman';
-    font-size: 20px;
+    font-size: large;
     color: white;
     padding: 30px 0px 0px 0px;
   }
   .bg3-content{
-    font-size: 30px;
+    font-size: small;
   }
   .how-we-work-content-heading2{
     text-align: center;
@@ -644,6 +659,21 @@ body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 350px) {
+  .one-div {
+    height: 210px;
+  }
+  
+  .two-div {
+    height: 210px;
+  }
+  
+  .three-div {
+    height: 210px;
+  }
+  
+  .four-div {
+    height: 210px;
+  }
   .indent-1{
     padding: 0px;
   }
@@ -652,12 +682,12 @@ body {
   }
   .bg3-heading{
     font-family: 'Times New Roman';
-    font-size: 20px;
+    font-size: large;
     color: white;
     padding: 30px 0px 0px 0px;
   }
   .bg3-content{
-    font-size: 30px;
+    font-size: small;
   }
   .fixed-bg1-heading3{
     font-family: 'Times New Roman';
@@ -672,6 +702,21 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 650px) {
+  .one-div {
+    height: 210px;
+  }
+  
+  .two-div {
+    height: 210px;
+  }
+  
+  .three-div {
+    height: 210px;
+  }
+  
+  .four-div {
+    height: 210px;
+  }
   .fixed-bg2-content{
     padding: 120px 50px;
   }
@@ -721,12 +766,12 @@ body {
   }
   .bg3-heading{
     font-family: 'Times New Roman';
-    font-size: 20px;
+    font-size: large;
     color: white;
     padding: 30px 0px 0px 0px;
   }
   .bg3-content{
-    font-size: 30px;
+    font-size: small;
   }
   .how-we-work-content-heading2{
     text-align: center;
@@ -768,7 +813,9 @@ body {
 
 /* -------------------- nav bar------------------------- */
 
-
+#header{
+  background-color: black;
+}
 .logo {
   color:black;
   display:inline-lock;

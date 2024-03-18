@@ -45,19 +45,19 @@ function sendEmail() {
           );
 }
 
-window.addEventListener('scroll', function (evt) {
-  console.log('OUTPUT : x axis->',screen.width);
-    if (window.scrollY == 0) {
-      console.log('OUTPUT : 51');
-      let ele = document.getElementById('header');
-        if(screen.width > 768){
-          console.log('OUTPUT : 54')
-          ele.style.removeProperty("background-color"); 
-        }
-    }
-    if(window.scrollY >= 200){
-      console.log('OUTPUT : 59')
-        let ele = document.getElementById('header');
-        ele.style.setProperty("background-color", "black");
-    }
-  });
+// window.addEventListener('scroll', function (evt) {
+//   console.log('OUTPUT : x axis->',screen.width);
+//     if (window.scrollY == 0) {
+//       console.log('OUTPUT : 51');
+//       let ele = document.getElementById('header');
+//         if(screen.width > 768){
+//           console.log('OUTPUT : 54')
+//           ele.style.removeProperty("background-color"); 
+//         }
+//     }
+//     if(window.scrollY >= 200){
+//       console.log('OUTPUT : 59')
+//         let ele = document.getElementById('header');
+//         ele.style.setProperty("background-color", "black");
+//     }
+//   });
