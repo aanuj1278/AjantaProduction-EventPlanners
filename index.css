@@ -880,6 +880,9 @@ body {
 .header .menu li a{
   color: white;
 }
+.header .menu li a:hover{
+  color: #AD9271;
+}
 /* menu icon */
 
 .header .menu-icon {

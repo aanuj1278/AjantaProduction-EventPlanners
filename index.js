@@ -73,3 +73,6 @@ function bookMyWeddingDateButton(){
   let base_url = window.location.origin;
   window.location.href=base_url+"/AjantaProduction-EventPlanners/contactUs.html";
 }
+function scrollDownPage(){
+  window.scrollTo(0,650)
+}

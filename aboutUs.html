@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Us-Event Planner</title>
+        <link rel="icon" type="image/x-icon"
+            href="images/Screenshot 2023-11-27 151120.png" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="aboutUs.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet" />
+        <!-- Alpine -->
+        <script src="index.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script type="module"
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script nomodule
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"
+            defer></script>
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Custom style -->
+        <link rel="stylesheet" href="css/skilline.css" />
+        <!-- Poppins font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <script src="https://unpkg.com/htmlincludejs"></script>
+    </head>
+<body>
+   <!-- header start -->
+   <include src="./header.html"></include>
+   <!-- header end -->
+
+    <!-- backgroung header start -->
+    <div class="aboutus-bg-outer">
+        <div class="aboutus-bg">
+            <div class="aboutus-bg-content">
+                <div class="aboutus-bg-heading1"><b>ABOUT US</b></div>
+                <div class="aboutus-bg-heading2"><b>Everything Need For Success Wedding</b></div>
+            </div>
+            <div class="aboutus-bg-downArrow">
+                <i class="fa fa-angle-double-down" style="font-size:80px;color:white" onclick="scrollDownPage()"></i>
+            </div>
+        </div>
+    </div>
+    <!-- backgroung header end -->
+
+    <!-- how we work section start -->
+    <div class="aboutus-howwework-section-outer">
+        <div class="aboutus-howwework-section">
+            <div class="aboutus-howwework-maindiv">
+                <div class="aboutus-howwework-heading1"><b>Looking for Perfection?</b></div>
+                <div class="aboutus-howwework-heading2"><b>WE ARE HERE TO HELP YOU!</b></div>
+                <div class="aboutus-howwework-content">At Ajanta Wedding Planners, we craft unforgettable weddings with meticulous attention to detail. From conceptualization to execution, our team blends creativity with precision to bring your dream wedding to life. With personalized service and local expertise, we ensure every moment of your special day reflects your unique love story. Let's create magic together.</div>
+            </div>
+            <div class="aboutus-howwework-steps">
+                <div class="aboutus-howwework-step">
+                    <div class="aboutus-howwework-step-logo">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="aboutus-howwework-step-heading">Collaborate With Us</div>
+                    <div class="aboutus-howwework-step-heading-description">Elevate your dream wedding with our expert touch. Collaborate with us for unforgettable moments tailored to your desires. Let's create magic together!</div>
+                </div>
+                <div class="aboutus-howwework-step">
+                    <div class="aboutus-howwework-step-logo">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="aboutus-howwework-step-heading">Select Destination</div>
+                    <div class="aboutus-howwework-step-heading-description">Discover Jaipur's enchanting venues for your dream wedding. Let us guide you to the perfect destination for your special day.</div>
+                </div>
+                <div class="aboutus-howwework-step">
+                    <div class="aboutus-howwework-step-logo">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="aboutus-howwework-step-heading">Start Planning</div>
+                    <div class="aboutus-howwework-step-heading-description">Embark on your dream wedding journey with us in Jaipur. Let's craft your perfect day together. Start planning now!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- how we work section end -->
+
+    <!-- couter section start -->
+    <div class="image-section-outer">
+        <div class="scope">
+            <span style="--i:1;"><img src="images/istockphoto-1147034216-1024x1024.jpg" alt="not found">anuj </span>
+            <span style="--i:2;"><img src="https://i.postimg.cc/1RWVB11x/pexels-photo-941693.jpg" alt="not found"></span>
+            <span style="--i:3;"><img src="https://i.postimg.cc/CMfHRKfP/woman-2003647-960-720.jpg" alt="not found"></span>
+            <span style="--i:4;"><img src="https://i.postimg.cc/T1rDCpVT/beautiful-1274056-960-720.jpg" alt="not found"></span>
+            <span style="--i:5;"><img src="https://i.postimg.cc/SNf99YQr/woman-1807533-960-720.jpg" alt="not found"></span>
+            <span style="--i:6;"><img src="https://i.postimg.cc/2SHBcpZL/pexels-photo-4664520.jpg" alt="not found"></span>
+            <span style="--i:7;"><img src="https://i.postimg.cc/CxBzNcjw/Opera-Snapshot-2020-07-03-162022-www-freepik-com.png" alt="not found"></span>
+            <span style="--i:8;"><img src="https://i.postimg.cc/0QckxSpt/Opera-Snapshot-2020-07-03-161422-www-freepik-com.png" alt="not found"></span>
+        </div>
+    </div>
+    <!-- couter section end -->
+   <!-- footer start -->
+   <include src="./footer.html"></include>
+   <!-- footer end --> 
+</body>
+</html>
