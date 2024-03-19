@@ -76,3 +76,32 @@ function bookMyWeddingDateButton(){
 function scrollDownPage(){
   window.scrollTo(0,650)
 }
+
+let images = document.getElementsByClassName("img");
+
+setTimeout(() => {
+  if(images.length !=0){
+    Array.from(images).forEach(myFunction);
+  }
+}, 1000);
+function myFunction(image, index) {
+  image.onclick = function () {
+      event.stopPropagation() //important to not call the clearActiveImage() on every click
+      if(images[index].classList.contains("active")){
+          images[index].classList.remove("active")
+      } else {
+          clearActiveImage(index)
+          images[index].classList.add("active")
+      }
+  }
+}
+function clearActiveImage() {
+  if(images.length != 0){
+    Array.from(images).forEach(image =>{
+        image.classList.remove("active");
+    });
+  }
+}
+document.addEventListener("click", function(){
+    clearActiveImage()
+})

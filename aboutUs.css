@@ -130,9 +130,13 @@
 
 .image-section-outer {
     min-height: 400px;
-    margin: 100px 0px 0px 630px;
+    /* margin: 100px 0px 0px 630px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
-
+/* 
 .scope {
     position: relative;
     width: 200px;
@@ -165,9 +169,60 @@
 
 .scope span:hover img {
     transform: translateY(-50px) scale(1.7);
+} */
+
+
+.container2{
+    height: 400px;
+    aspect-ratio: 1.5 / 1;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
 }
 
-@keyframes slid {
+.container2:has(.img.active) .img:not(.active){
+    filter: grayscale(100%)
+}
+
+.img{
+    height: 100%;
+    width: calc(100% / 5);
+    object-fit: cover;
+    overflow: hidden;
+    border: 2px solid #141414;
+    transition: all 0.4s cubic-bezier(0.32, 0, 0.67, 0);
+    cursor: pointer;
+}
+
+.active{
+    width: 200%;
+}
+
+
+.planners-section-mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    background-color: #f6f6f6;
+}
+.planners-section-heading1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.planners-section-heading2{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #AD9271;
+}
+.planners-section-content{
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+}
+/* @keyframes slid {
     0% {
         transform: perspective(1000px) rotateY(0deg);
     }
@@ -175,7 +230,7 @@
     100% {
         transform: perspective(1000px) rotateY(360deg);
     }
-}
+} */
 
 
 @media only screen and (max-width: 350px) {
@@ -200,9 +255,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-    .image-section-outer {
-        margin: 100px 0px 0px 0px;
     }
 }
 
@@ -229,9 +281,6 @@
         justify-content: center;
         flex-direction: column;
     }
-    .image-section-outer {
-        margin: 100px 0px 0px 0px;
-    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -256,8 +305,5 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-    .image-section-outer {
-        margin: 100px 0px 0px 0px;
     }
 }
