@@ -1,23 +1,6 @@
 body {
   overflow-x: hidden;
 }
-.aboutus-bg-downArrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: key1 .3s ease infinite alternate;
-  cursor: pointer;
-}
-
-@keyframes key1 {
-  0% {
-      transform: translateY(0px);
-  }
-
-  100% {
-      transform: translateY(-10px);
-  }
-}
 .company-logo {
   width: 200px;
   height: 40px;
