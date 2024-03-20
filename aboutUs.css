@@ -244,6 +244,7 @@
 
     .aboutus-howwework-heading2 {
         font-size: x-large;
+        text-align: center;
     }
 
     .aboutus-howwework-content {
@@ -255,6 +256,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .aboutus-howwework-step-heading{
+        font-size: 30px;
+    }
+    .planners-section-content{
+        width: fit-content;
     }
 }
 
@@ -269,6 +276,7 @@
 
     .aboutus-howwework-heading2 {
         font-size: xx-large;
+        text-align: center;
     }
 
     .aboutus-howwework-content {
@@ -280,6 +288,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .aboutus-howwework-step-heading{
+        font-size: 30px;
+    }
+    .planners-section-content{
+        width: fit-content;
     }
 }
 
@@ -294,6 +308,7 @@
 
     .aboutus-howwework-heading2 {
         font-size: xx-large;
+        text-align: center;
     }
 
     .aboutus-howwework-content {
@@ -305,5 +320,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .aboutus-howwework-step-heading{
+        font-size: 30px;
+    }
+    .planners-section-content{
+        width: fit-content;
     }
 }

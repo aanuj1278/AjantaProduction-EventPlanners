@@ -164,6 +164,9 @@
     text-align: center;
 }
 @media only screen and (max-width: 350px) {
+    .services-bg-heading1{
+        color: #AD9271;
+    }
     .services-bg-heading2{
         font-size: 23px;
         text-align: center;
@@ -218,6 +221,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .services-bg-heading1{
+        color: #AD9271;
+    }
     .services-bg-heading2{
         font-size: 25px;
         text-align: center;
@@ -272,6 +278,9 @@
 }
 
 @media only screen and (max-width: 650px) {
+    .services-bg-heading1{
+        color: #AD9271;
+    }
     .services-bg-heading2{
         font-size: 30px;
         text-align: center;
