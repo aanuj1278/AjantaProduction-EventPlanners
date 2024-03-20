@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Services-Event Planner</title>
+        <link rel="icon" type="image/x-icon"
+            href="images/Screenshot 2023-11-27 151120.png" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="services.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet" />
+        <!-- Alpine -->
+        <script src="index.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script type="module"
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script nomodule
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"
+            defer></script>
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Custom style -->
+        <link rel="stylesheet" href="css/skilline.css" />
+        <!-- Poppins font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <script src="https://unpkg.com/htmlincludejs"></script>
+    </head>
+<body>
+   <!-- header start -->
+   <include src="./header.html"></include>
+   <!-- header end -->
+
+    <!-- backgroung header start -->
+    <div class="services-bg-outer">
+        <div class="services-bg">
+            <div class="services-bg-content">
+                <div class="services-bg-heading2"><b>Crafting Unforgettable Moments: Discover Our Event Services</b></div>
+                <div class="services-bg-heading1"><b>SERVICES</b></div>
+            </div>
+            <div class="services-bg-downArrow">
+                <i class="fa fa-angle-double-down" style="font-size:80px;color:white" onclick="scrollDownPage()"></i>
+            </div>
+        </div>
+    </div>
+    <!-- backgroung header end -->
+
+    <!-- services description section start -->
+    <div class="services-description-outer">
+        <div class="services-description-mainDiv">
+            <div class="services-description-content">
+                <div class="services-description-content-heading1">SERVING THE BEST</div>
+                <div class="services-description-content-heading2">Transform Your Event with Exceptional Services! From delectable catering to captivating sound and stunning photography, we offer a comprehensive suite of services to elevate your occasion. Let us handle the details while you focus on making memories. Explore our offerings and make your event unforgettable.</div>
+                <div class="services-description-content-button">
+                    <div class="button button3"
+                            style="padding: 13px 50px" onclick="sendEmail()">
+                            BOOK AN APPOINTMENT
+                        </div>
+                </div>
+            </div>
+            <div class="services-description-images">
+                <div class="services-description-images-portion1">
+                    <img src="images/Lighting, Audio Event Designs.jpeg">
+                    <img src="images/gallery-img1.jpg">
+                </div>
+                <div class="services-description-images-portion2">
+                    <img src="images/22 Outdoor Summer Wedding Tips And 68 Ideas.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services description section end -->
+
+    <!-- services blocks start -->
+    <div class="services-block-outer">
+        <div class="services-block-mainDiv">
+            <div class="services-block">
+                <div class="services-block-logo">
+                    <img src="images/icon-3.png" />
+                </div>
+                <div class="services-block-heading">photography</div>
+                <div class="services-block-description">
+                    Capturing Love, Joy, and Memories: Our Photography Block Ensures Every Moment Shines Brightly.
+                </div>
+            </div>
+            <div class="services-block">
+                <div class="services-block-logo">
+                    <img src="images/icon-1.png" />
+                </div>
+                <div class="services-block-heading">Catering</div>
+                <div class="services-block-description">
+                    Our catering services are a symphony of flavors, meticulously curated to reflect your unique palate
+                </div>
+            </div>
+            <div class="services-block">
+                <div class="services-block-logo">
+                    <img src="images/icon-2.png" />
+                </div>
+                <div class="services-block-heading">Decoration</div>
+                <div class="services-block-description">
+                    Step into a world where dreams become reality with our enchanting decoration services.
+                </div>
+            </div>
+            <div class="services-block">
+                <div class="services-block-logo">
+                    <img src="images/icon-3.png" />
+                </div>
+                <div class="services-block-heading">Sound</div>
+                <div class="services-block-description">
+                    Feel the beat of your hearts synchronize with ourcaptivating sound services.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services blocks end -->
+
+    <!-- backgroung image section start -->
+    <div class="services-image-section-outer">
+        <div class="services-image-section-mainDiv">
+            <div class="services-image-section-heading1">Want Your Wedding To Be Perfect And Memorable?</div>
+            <div class="services-image-section-content">Crafting Dreams into Reality: Your Perfect and Unforgettable Wedding Experience Starts Here!</div>
+            <div class="services-image-section-button">
+                <div class="button button3" style="padding: 13px 50px" onclick="sendEmail()">START WEDDING PLANNING</div>
+            </div>
+        </div>
+    </div>
+    <!-- backgroung image section end -->
+    
+   <!-- footer start -->
+   <include src="./footer.html"></include>
+   <!-- footer end --> 
+</body>
+</html>
