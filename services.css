@@ -176,6 +176,7 @@
     }
     .services-description-content{
         width: 100%;
+        padding: 0px;
     }
     .services-description-images{
         width: 100%;
@@ -207,6 +208,12 @@
     }
     .services-description-content-heading2{
         padding: 0px;
+    }
+    .services-description-content-button{
+        margin: 10px;
+    }
+    .services-description-images-portion2{
+        display: none;
     }
 }
 
@@ -223,6 +230,7 @@
     }
     .services-description-content{
         width: 100%;
+        padding: 0px;
     }
     .services-description-images{
         width: 100%;
@@ -254,6 +262,12 @@
     }
     .services-description-content-heading2{
         padding: 0px;
+    }
+    .services-description-content-button{
+        margin: 10px;
+    }
+    .services-description-images-portion2{
+        display: none;
     }
 }
 
@@ -270,6 +284,7 @@
     }
     .services-description-content{
         width: 100%;
+        padding: 0px;
     }
     .services-description-images{
         width: 100%;
@@ -301,5 +316,11 @@
     }
     .services-description-content-heading2{
         padding: 0px;
+    }
+    .services-description-content-button{
+        margin: 10px;
+    }
+    .services-description-images-portion2{
+        display: none;
     }
 }
