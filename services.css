@@ -198,6 +198,16 @@
         width: 50%;
         padding: 10px 0px;
     }
+    .services-bg-heading1{
+        font-size: 40px;
+    }
+    .services-description-content-heading1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .services-description-content-heading2{
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -235,6 +245,16 @@
         width: 50%;
         padding: 10px 0px;
     }
+    .services-bg-heading1{
+        font-size: 40px;
+    }
+    .services-description-content-heading1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .services-description-content-heading2{
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -271,5 +291,15 @@
     .services-block {
         width: 50%;
         padding: 10px 0px;
+    }
+    .services-bg-heading1{
+        font-size: 40px;
+    }
+    .services-description-content-heading1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .services-description-content-heading2{
+        padding: 0px;
     }
 }
