@@ -105,3 +105,41 @@ function clearActiveImage() {
 document.addEventListener("click", function(){
     clearActiveImage()
 })
+
+
+// gallery section JS
+let count = 0;
+setTimeout(() => {
+  let photos = Array.from(document.getElementsByClassName("photo"));
+  photos.forEach((photo) => {
+      count++;
+      if (count % 2) {
+          photo.classList.add("even");
+      }
+  });
+}, 1000);
+
+document.addEventListener('scroll',()=>{
+  let photos = Array.from(document.getElementsByClassName("photo"));
+  photos.forEach(checkPosition);
+})
+
+function checkPosition(photo) {
+  let photoWrapper = document.getElementById("photoWrapper");
+    if (photo.getBoundingClientRect().right - 4 <= 0) {
+        photo.remove();
+        photoWrapper.append(photo);
+        photoWrapper.scrollLeft = 0;
+        return;
+    }
+}
+
+function infiniteScroll() {
+  let photoWrapper = document.getElementById("photoWrapper");
+  photoWrapper.scrollLeft++;
+  requestAnimationFrame(infiniteScroll);
+}
+
+setTimeout(() => {
+  infiniteScroll();
+}, 1000);

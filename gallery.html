@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery-Event Planner</title>
+        <link rel="icon" type="image/x-icon"
+            href="images/Screenshot 2023-11-27 151120.png" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="gallery.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet" />
+        <!-- Alpine -->
+        <script src="index.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script type="module"
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script nomodule
+            src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"
+            defer></script>
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Custom style -->
+        <link rel="stylesheet" href="css/skilline.css" />
+        <!-- Poppins font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <script src="https://unpkg.com/htmlincludejs"></script>
+    </head>
+<body>
+   <!-- header start -->
+   <include src="./header.html"></include>
+   <!-- header end -->
+
+   <!-- background header start -->
+   <div class="gallery-bg-outer">
+        <div class="gallery-bg">
+            <div class="gallery-bg-content">
+                <div class="gallery-bg-heading2"><b>Our Exclusive Wedding</b></div>
+                <div class="gallery-bg-heading1"><b>GALLERY</b></div>
+            </div>
+            <div class="gallery-bg-downArrow">
+                <i class="fa fa-angle-double-down" style="font-size:80px;color:white" onclick="scrollDownPage()"></i>
+            </div>
+        </div>
+    </div>
+   <!-- background header end -->
+   
+   <!-- images section start -->
+   <div class="gallery-images-section-outer">
+        <div class="gallery-images-section-mainDiv">
+            <div class="container12">
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="images/gallery-img1.jpg">
+                  </div>
+                  <div class="col-sm">
+                    <img src="images/gallery-img2.jpg">
+                  </div>
+                  <div class="col-sm">
+                    <img src="images/gallery-img3.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="images/gallery-img4.jpg">
+                  </div>
+                  <div class="col-sm">
+                    <img src="images/gallery-img5.jpg">
+                  </div>
+                  <div class="col-sm">
+                    <img src="images/gallery-img6.jpg">
+                  </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- images section end -->
+
+   <!-- infinite photo carousel section start -->
+   <div class="photo-wrapper" id="photoWrapper">
+        <div class="photo">
+            <img src="images/gallery-img1.jpg">
+        </div>
+        <div class="photo">
+            <img src="images/gallery-img2.jpg">
+        </div>
+        <div class="photo">
+            <img src="images/gallery-img3.jpg">
+        </div>
+        <div class="photo">
+            <img src="images/gallery-img4.jpg">
+        </div>
+        <div class="photo">
+            <img src="images/gallery-img5.jpg">
+        </div>
+        <div class="photo">
+            <img src="images/gallery-img6.jpg">
+        </div>
+    </div>
+    <!-- infinite photo carousel section end -->
+
+   <!-- footer start -->
+   <include src="./footer.html"></include>
+   <!-- footer end --> 
+</body>
+</html>
